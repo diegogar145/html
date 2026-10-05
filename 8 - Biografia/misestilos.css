@@ -7,3 +7,43 @@ h2{
     font-style: italic;
     background-color: brown;
 }
+
+.destacado{
+    background-color: rgb(4, 255, 0);
+    font-size: xx-small;
+
+}
+
+.rojito{
+    background-color: red;
+    font-style: italic;
+}
+
+.azulito{
+    background-color: aqua;
+    font-size: xx-large;
+}
+
+.gris{
+    background-color: grey;
+}
+
+.morado{
+    background-color: purple;
+}
+
+div p{
+    font-size: xx-large;
+}
+
+h2 ~ h3{
+    background-color: chocolate;
+}
+
+div P[align="center"]:hover{
+    background-color: gold;
+}
+
+#informacion{
+    font-style: italic;
+}
