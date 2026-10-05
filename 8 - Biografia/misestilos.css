@@ -1,3 +1,8 @@
+body{
+    background-image: url(Imagenes/grieto\ del\ invocador.jpg);
+    color: white;
+}
+
 h1{
     font-family: 'Courier New', Courier, monospace;
     background-color: blue;
@@ -46,4 +51,21 @@ div P[align="center"]:hover{
 
 #informacion{
     font-style: italic;
+}
+
+#informacion::first-letter{
+    font-size: xx-large;
+    font-style: normal;
+}
+
+.imagen{
+    border: 5px;
+    border-style: solid;
+    border-color: pink;
+}
+
+.imagen2{
+    border: 5px;
+    border-style: solid;
+    border-color: black;
 }
